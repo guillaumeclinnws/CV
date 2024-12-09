@@ -1,7 +1,6 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-
 }
 
 h2{
@@ -17,146 +16,140 @@ p{
 li{
     font-size: 14px;
 }
-#hobbies{
-    border-style:double;
-}
-#coord{
-    border-style: double;
-}
-#comp{
-    border-style: double;
-}
-#formations{
-    border-style: double;
-}
 nav {
-    margin: 27px auto 0;
-    position: relative;
-    width: 780px;
-    height: 50px;
-    background-color: #34495e;
-    border-radius: 8px;
-    font-size: 0;
-  }
+  margin: 27px auto 0;
+  position: relative;
+  width: 850px;
+  height: 50px;
+  background-color: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+}
 
-  nav a {
-    line-height: 50px;
-    height: 100%;
-    font-size: 10px;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-  }
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
 
-  .sous {
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-  }
+.sous {
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
 
-  nav a li {
-    float: right;
-    width: 17%;
-    text-align: center;
-    position: relative;
-    top: 30px
+nav ul li {
+  float: right;
+  width: 17%;
+  text-align: center;
+  position: relative;
 
-  }
+}
 
-  nav a::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+nav ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
- .animation {
-    height: 100%;
-    top: 50px;
-    z-index: 0;
-    transition: all .5s ease 0s;
-    border-radius: 8px;
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
 
-  }
+}
 
-  a:nth-child(1) {
-    width: 130px;
-  }
+a:nth-child(1) {
+  width: 100px;
+}
 
-  a:nth-child(2) {
-    width: 110px;
-  }
+a:nth-child(2) {
+  width: 130px;
+}
 
-  a:nth-child(3) {
-    width: 100px;
-  }
+a:nth-child(3) {
+  width: 110px;
+}
 
-  a:nth-child(4) {
-    width: 160px;
-  }
+a:nth-child(4) {
+  width: 120px;
+}
 
-  a:nth-child(5) {
-    width: 150px;
-  }
+a:nth-child(5) {
+  width: 150px;
+}
 
-  a:nth-child(6) {
-    width: 130px;
-  }
+a:nth-child(6) {
+  width: 130px;
+}
+a:nth-child(7) {
+  width: 100px;
+}
 
-  nav .start-coords,
-  a:nth-child(1):hover~.animation {
-    width: 130px;
-    left: 0;
-    background-color: #1abc9c;
-  }
+nav .start-accueil,
+a:nth-child(1):hover~.animation {
+  width: 100px;
+  left: 0;
+  background-color: #1abc9c;
+} 
 
-  nav .start-hobbies,
-  a:nth-child(2):hover~.animation {
-    width: 110px;
-    left: 130px;
-    background-color: #e74c3c;
-  }
+nav .start-coords,
+a:nth-child(2):hover~.animation {
+  width: 130px;
+  left: 100px;
+  background-color: #1abc9c;
+}
 
-  nav .start-formations,
-  a:nth-child(3):hover~.animation {
-    width: 100px;
-    left: 238px;
-    background-color: #3498db;
-  }
+nav .start-hobbies,
+a:nth-child(3):hover~.animation {
+  width: 110px;
+  left: 230px;
+  background-color: #e74c3c;
+}
 
-  nav .start-compétences,
-  a:nth-child(4):hover~.animation {
-    width: 130px;
-    left: 353px;
-    background-color: #9b59b6;
-  }
+nav .start-formations,
+a:nth-child(4):hover~.animation {
+  width: 120px;
+  left: 340px;
+  background-color: #3498db;
+}
 
-  nav .start-exppro,
-  a:nth-child(5):hover~.animation {
-    width: 150px;
-    left: 500px;
-    background-color: #8B5DFF;
-  }
+nav .start-compétences,
+a:nth-child(5):hover~.animation {
+  width: 145px;
+  left: 460px;
+  background-color: #9b59b6;
+}
 
-  nav .start-langues,
-  a:nth-child(6):hover~.animation {
-    width: 125px;
-    left: 655px;
-    background-color: #62825D;
-  }
+nav .start-exppro,
+a:nth-child(6):hover~.animation {
+  width: 150px;
+  left: 595px;
+  background-color: #8B5DFF;
+}
 
-  body {
-    font-size: 10px;
-    font-family: sans-serif;
-    background: #2c3e50;
-  }
-  image {
-    border-color: #62825D;
-    left: 400px;
-  }
+nav .start-langues,
+a:nth-child(7):hover~.animation {
+  width: 105px;
+  left: 745px;
+  background-color: #62825D;
+}
+
+body {
+  font-size: 10px;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
