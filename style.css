@@ -1,8 +1,33 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+h2{
+    font-size: 20px;
+    text-decoration: underline;
+}
+h3{
+    font-size: 17px;
+}
+p{
+    font-size: 14px;
+}
+li{
+    font-size: 14px;
 }
 #hobbies{
-    
+    border-style:double;
+}
+#coord{
+    border-style: double;
+}
+#comp{
+    border-style: double;
+}
+#formations{
+    border-style: double;
 }
 nav {
     margin: 27px auto 0;
@@ -36,23 +61,24 @@ nav {
     z-index: 1000;
   }
 
-  nav ul li {
+  nav a li {
     float: right;
     width: 17%;
     text-align: center;
     position: relative;
+    top: 30px
 
   }
 
-  nav ul::after {
+  nav a::after {
     content: "";
     display: table;
     clear: both;
   }
 
-  nav .animation {
+ .animation {
     height: 100%;
-    top: 0;
+    top: 50px;
     z-index: 0;
     transition: all .5s ease 0s;
     border-radius: 8px;
@@ -129,4 +155,8 @@ nav {
     font-size: 10px;
     font-family: sans-serif;
     background: #2c3e50;
+  }
+  image {
+    border-color: #62825D;
+    left: 400px;
   }
