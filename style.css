@@ -19,7 +19,7 @@ li{
 nav {
   margin: 27px auto 0;
   position: relative;
-  width: 850px;
+  width: 750px;
   height: 50px;
   background-color: #34495e;
   border-radius: 8px;
@@ -95,9 +95,7 @@ a:nth-child(5) {
 a:nth-child(6) {
   width: 130px;
 }
-a:nth-child(7) {
-  width: 100px;
-}
+
 
 nav .start-accueil,
 a:nth-child(1):hover~.animation {
@@ -136,17 +134,11 @@ a:nth-child(5):hover~.animation {
 
 nav .start-exppro,
 a:nth-child(6):hover~.animation {
-  width: 150px;
+  width: 155px;
   left: 595px;
   background-color: #8B5DFF;
 }
 
-nav .start-langues,
-a:nth-child(7):hover~.animation {
-  width: 105px;
-  left: 745px;
-  background-color: #62825D;
-}
 
 body {
   font-size: 10px;
@@ -265,4 +257,14 @@ tfoot td {
   position: absolute;
   left: 200px;
   top: -30px
+}
+.lieu {
+  position: absolute;
+  left: 600px;
+}
+.textcoord {
+  font-size: 30px;
+}
+.exppro {
+  align-items: center;
 }
