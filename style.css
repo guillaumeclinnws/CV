@@ -241,3 +241,9 @@ tfoot td {
 .carousel-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+.musiquetext,
+.cinema,
+.escrime {
+  position: relative;
+  justify-items: center;
+}
