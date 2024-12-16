@@ -247,3 +247,25 @@ tfoot td {
   position: relative;
   justify-items: center;
 }
+.nws {
+  position: absolute;
+  left: 200px;
+  top: 80px;
+}
+.mapsnws {
+  position: absolute;
+  right: 50px;
+}
+.iut {
+  position: relative;
+  top: 100px;
+}
+.mapsiut {
+  position: absolute;
+  right: 42px;
+}
+.iutimg {
+  position: absolute;
+  left: 200px;
+  top: -30px
+}
