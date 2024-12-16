@@ -270,5 +270,15 @@ tfoot td {
 }
 .langue {
   position: absolute;
+  left: 500px;
+  top: 80px;
+}
+.textanglais {
+  position: absolute;
+  left :0px;
+  top: 80px;
+}
+.exppro {
+  position: absolute;
   left: 100px;
 }
