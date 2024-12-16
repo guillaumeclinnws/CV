@@ -260,11 +260,15 @@ tfoot td {
 }
 .lieu {
   position: absolute;
-  left: 600px;
+  left: 1000px;
 }
 .textcoord {
   font-size: 30px;
 }
 .exppro {
   align-items: center;
+}
+.langue {
+  position: absolute;
+  left: 100px;
 }
